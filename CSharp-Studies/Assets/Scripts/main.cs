@@ -2,16 +2,15 @@
 
 public class main : MonoBehaviour
 {
-    // Start is called before the first frame update
+    GameObject objectOne;
+    GameObject objectTwo;
+    GameObject objectOneThree;
+
     void Start()
     {
-        PromisesTests.TestTasks();
-        Debug.Log("Já Chamei agora to esperando");
-    }
+        PromisesTests.AsyncMakeBreakfast();
 
-    // Update is called once per frame
-    void Update()
-    {
-
+        // PromisesTests.AsyncFunction_WithAwaitOnTaskCreation_RunsOnParallel();
+        // Debug.Log("Já Chamei agora to esperando");
     }
 }
