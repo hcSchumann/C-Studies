@@ -9,8 +9,8 @@ public class main : MonoBehaviour
     void Start()
     {
         PromisesTests.AsyncMakeBreakfast();
+        Debug.Log("Já Chamei AsyncMakeBreakfast agora to esperando");
 
         // PromisesTests.AsyncFunction_WithAwaitOnTaskCreation_RunsOnParallel();
-        // Debug.Log("Já Chamei agora to esperando");
     }
 }
